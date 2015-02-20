@@ -1,0 +1,18 @@
+.blank {
+  visibility: hidden;
+}
+.show {
+  visibility: visible;
+}
+.match {
+  pointer-events: none;
+  background: green;
+  cursor: default;
+}
+.inactive {
+  pointer-events: none;
+}
+td:hover {
+  background: yellow;
+  cursor: pointer;
+}
